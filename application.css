@@ -1,35 +1,35 @@
 .root{
     -fx-font-size: 10pt;
     -fx-font-family: "Consolas";
-    -fx-base: rgb(132, 145, 47);
-    -fx-background: rgb(225, 228, 203);
+    -fx-base: rgb(85, 83, 83);
+    -fx-background: rgb(78, 76, 76);
 }
 .button {
     -fx-background-color: 
-        #3c7fb1,
-        linear-gradient(#fafdfe, #e8f5fc),
-        linear-gradient(#eaf6fd 0.0%, #d9f0fc 49.0%, #bee6fd 50.0%, #a7d9f5 100.0%);
+        #0a0a0a,
+        linear-gradient(#fc1008, #0a43fd),
+        linear-gradient(#07f763 0.0%, #f808ec 49.0%, #800661 50.0%, #fc9208 100.0%);
     -fx-background-insets: 0.0,1.0,2.0;
     -fx-background-radius: 3.0,2.0,1.0;
     -fx-padding: 3.0 10.0 3.0 10.0;
-    -fx-text-fill: black;
+    -fx-text-fill: rgb(241, 236, 236);
     -fx-font-size: 12.0px;
 }
 .text-area {
     -fx-font-family: Consolas;
     -fx-font-size: 15.0;
-    -fx-text-fill: #000000;
+    -fx-text-fill: #f8f5f5;
     -fx-display-caret:true;
 }
 .text-area .content {
-    -fx-background-color: #ffffff;
+    -fx-background-color: #f7f1f1;
 }
 .label {
 	-fx-font: normal 12.0px verdana;
 
 }
 .pane {
-    -fx-background-color: #8fbc8f;
+    -fx-background-color: #313133;
     -fx-background-insets: 0.0 0.0 0.0 0.0;
     -fx-padding: 5.0;
     -fx-hgap: 1.0;
@@ -39,16 +39,16 @@
 	-fx-grid-lines-visible: false;
 }
 .hbox {
-    -fx-background-color: #8fbc8f;
+    -fx-background-color: #444547;
     -fx-padding: 10;
     -fx-spacing: 10;
     -fx-hgap: 5.0;
     -fx-vgap: 5.0;
 }
 .text-field {
-    -fx-text-box-border: #B22222; 
+    -fx-text-box-border: #faf4f4; 
     -fx-padding: 5;
  }
 .text-field:focused {
-    -fx-focus-color: #B22222;
+    -fx-focus-color: #f1ecec;
 }

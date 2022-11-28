@@ -1,4 +1,4 @@
-package contactCRUD;
+package dealershipCRUD;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -15,10 +15,11 @@ public class DbConnection {
     }
     public static Connection getConnection() {
         try {
-    		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/CSC251", "scott", "tiger");
+    		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/carbook", "scott", "tiger");
             return conn;
         } catch (SQLException e) {
             return null;
         }
     }
 }
+
